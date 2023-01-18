@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DSA LIVE PROJECT</title>
+
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    /> -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="stack.js"></script>
+    <script src="script.js" type="module"></script>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-light"
+      style="
+        font-size: 25px;
+        color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(22, 26, 130);
+        text-align: center;
+      "
+    >
+      DSA PROJECT (STACK)
+    </nav>
+
+    <div id="container">
+      <div class="text_box">
+        Type here
+        <br />
+        <textarea class="form-control" id="comment"> </textarea>
+      </div>
+      <div class="text_box" style="overflow-y: scroll">
+        <span
+          id="temptext"
+          style="width: 100%; text-align: center; font-size: x-large"
+        >
+          OUTPUT
+        </span>
+      </div>
+    </div>
+    <div>
+      <br />
+      <button type="button" class="btn" id="undo">
+        &nbsp; &nbsp; &nbsp;UNDO &nbsp; &nbsp; &nbsp;
+      </button>
+      <br />
+      <button type="button" class="btn btn-dark" id="clear">
+        &nbsp; &nbsp; &nbsp;RESET &nbsp; &nbsp; &nbsp;
+      </button>
+    </div>
+  </body>
+</html>
